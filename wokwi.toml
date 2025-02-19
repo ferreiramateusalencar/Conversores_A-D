@@ -1,0 +1,6 @@
+[wokwi]
+version = 1
+firmware = 'build/main.hex'
+elf = 'build/main.elf'
+rfc2217ServerPort = 4000
+gdbServerPort=3333
