@@ -38,6 +38,7 @@ pico_sdk_init()
 add_executable(main
         main.c
         lib/ssd1306_i2c.c
+        lib/ssd1306.c
         )
 
 # Adicione o caminho de inclusão para ssd1306.h, ssd1306_i2c.h e font.h
